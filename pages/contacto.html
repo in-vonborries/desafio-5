@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CiberChile - Contacto</title>
+    <link rel="stylesheet" href="../css/estilos.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <img src="../imagenes/logo-ciberchile.png" alt="logo-ciberchile"> 
+        </div>
+            <ul>
+               <li><a href="../index.html">Inicio</a></li>
+               <li><a href="amenazas.html">Amenazas</a></li>
+               <li><a href="parches.html">Parches</a></li>
+               <li><a href="vulnerabilidades.html">Vulnerabilidades</a> </li>
+               <li><a href="phishing.html">Phishing</a></li>
+               <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+           <!--             <div class="buscador">
+                <img src="imagenes/" alt="logo-ciberchile"> 
+            </div>
+           -->
+            <form class="buscador" action="../../form-result.php" method="post" target="_blank" style="border-radius: 40px;">
+
+                <input type="search" name="Buscar" placeholder="Buscar">
+                <input type="submit" value="Buscar">
+          </form>
+    </nav>
+    <main>
+<p class="page-contacto">
+En <span>Ciberchile</span>  nos preocupamos por ti, por eso queremos <span style="color: #FF5F98;">conocerte más!</span> 
+</p>
+<br>
+<FORM class="page-contacto">
+    <div>
+        <label for="Nombre completo">Nombre completo:</label>
+        <input  required type="text" id="Nombre completo" name="Nombre completo" 
+        placeholder="Nombre y Apellido">
+    </div>
+<br>
+<div>
+    <label for="Edad">Edad:</label>
+    <input required type="number" id="Edad" name="Edad"
+    placeholder="Edad">
+</div><br>
+<div>
+    <label for="Correo electrónico">Correo electrónico:</label>
+    <input required type="text" id="Correo electrónico" name="Correo electrónico"
+    placeholder="usuario@correo.com">
+</div>
+<br>
+<div>
+    <label for="Teléfono">Teléfono:</label>
+    <input required type="number" id="Teléfono"
+    name="Teléfono" placeholder="+56 9">
+</div>
+<br>
+<div>
+    <label for="tipo">País de residencia:</label>
+    <select name="tipo" id="tipo" required>
+        <option value="-Seleccionar-">-Seleccionar-</option>
+        <option value="Chile">chile</option>
+        <option value="Argentina">Argentina</option>
+        <option value="Perú">Perú</option>
+        <option value="Brasil">Brasil</option>
+        <option value="Uruguay">Uruguay</option>
+        <option value="Venezuela">Venezuela</option>
+    </select>
+</div>
+<br>
+    <div>
+        <p>Ocupación:</p>
+        <br>
+        <label for="Estudiante">Estudiante</label>
+        <input type="radio" id="Estudiante" name="consulta" value="Estudiante">
+
+        <label for="Trabajador">Trabajador</label>
+        <input type="radio" id="Trabajador" name="consulta" value="Trabajador">
+
+        <label for="Otro">Otro</label>
+        <input type="radio"  id="Otro" name="consulta" value="Otro">
+     </div>
+     <br>
+     <div>
+<p>Dejanos tus comentarios/dudas:</p>
+        <textarea required name="comentario" id="comentario" cols="50" rows="10" placeholder="Escribe aquí.."></textarea>
+    </div>
+<br>
+<div>
+    ¿Cómo quieres que te contactemos?
+    <br><br>
+
+    <label for="cel">Celular</label>
+    <input required type="checkbox" id="cel" name="contacto">
+
+    <label for="mail">Correo electrónico</label>
+    <input required type="checkbox"  id="mail" name="contacto">
+
+    <label for="none">No quiero ser contactado</label>
+    <input required type="checkbox" id="none"  name="contacto">
+</div>
+<br>
+<div>
+    <button>Enviar</button>
+    </div>
+    <br>
+    </main>
+    <hr>
+    <footer>
+        <div class="logo2">
+            <img src="../imagenes/logo-ciberchile.png" alt="logo-ciberchile" width="60">
+        </div>
+        <div class="estilo-div">
+            <p>
+                Tu mejor aliado <span>tecnológico</span> 
+            </p>
+        </div>
+        <div class="estilo-div2">
+            <ul>
+                <li><a href="https://www.instagram.com/?hl=es" target="_blank" rel="noreferrer">Instagram</a></li>
+                <li><a href="https://cl.linkedin.com/"target="_blank" rel="noreferrer">LinkedIn</a></li>
+             </ul>  
+        </div>
+    </footer>
+</body>
+</html>
